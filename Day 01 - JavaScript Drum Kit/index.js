@@ -28,7 +28,3 @@ function removeTransition(e) {
 
 const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-
-setTimeout(function () {
-    header.removeClass('blue');
-}, 4000);
